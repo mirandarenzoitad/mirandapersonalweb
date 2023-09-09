@@ -1,0 +1,83 @@
+body{
+    font-family: 'lato', sans-serif;
+    font-size:12px;
+    background: #B99B6B;
+
+ }
+
+
+img {
+	margin: 5px;
+	padding: 3px;
+	height: auto;
+	width: 20%;
+	border-radius: 50px;
+	opacity: 0.75;
+}
+img:hover{
+	opacity: 1;
+	
+	
+}
+
+
+
+.cent{
+ text-align: center;
+ 
+ 
+}
+
+
+p{
+	font-family: Arial;
+	font-size: 1.7em;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.leftfloat:hover {
+	opacity: 1;
+}
+ 
+ .top1{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.top1:hover{
+	color: orange;
+	
+}
+
+
+.videocent{
+	text-align: center;
+	
+}
+
+.clearfix {
+	overflow: auto; 
+	margin-left: 20px;
+	padding: 15px;
+}
+
+.leftFloat{
+	float: left;
+	margin-left: 10px;
+	padding: 15px;
+	
+	width: 400px;
+	height: 250px;
+}
+
+
+.rightFloat{
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	
+	width: 400px;
+	height: 250px;
+}

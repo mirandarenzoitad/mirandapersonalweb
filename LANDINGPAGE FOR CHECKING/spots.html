@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+  <title> PLACES </title>
+    <meta charset ="utf-8">
+   	<link rel="stylesheet" type="text/css" href="spotts.css">
+    </style>
+	
+	<script language= "JavaScript">
+		
+		function writeText(txt){
+			document.getElementById("desc").innerHTML=txt;
+		}
+		
+		function dissolveText(txt){
+			document.getElementById("desc").innerHTML=txt;
+		}
+	</script>
+	</head>
+  <body> 
+  
+ <nav>
+	<a href = "home.html"> Home </a>
+	<a href = "aboutMe.html"> Biography </a>
+	<a href = "shi.html"> Skills </a>
+	<a href = "resume.html"> Resume </a>
+	<a href = "mbeats.html"> Beats </a>
+	<a href = "filmss.html"> Films </a>
+	<a href = "spots.html"> Spots </a>
+	<a href = "bl.html"> Bucket List </a>
+	<div class= "animation home"> </div>
+</nav>
+
+
+<div align = "center"> 
+
+	<img src="PIWTV.png"  usemap ="#places">
+	<map name="places">
+		<area shape="rect" coords="35,435,424,797" href="scotland.html" target ="newSpace"
+		onMouseOver="writeText('Scotland');" onMouseOut="dissolveText('');"/>
+		  
+		<area  shape="polygon" coords="404,945 509,513 754,570 763,623 750,658 739,675 759,678 783,704 
+		  798,717 765,890 735,895 693,906 669,945 649,996 634,1009 596,982 564,987 500,974 478,974 447,961 430,954 " 
+		   href="switzerland.html" target ="newSpace" 
+		   onMouseOver="writeText('Switzerland');" onMouseOut="dissolveText('');"/>
+		   
+		<area shape="circle" coords="981,784,163" href="bicol.html" target ="newSpace"
+		onMouseOver="writeText('Philippines');" onMouseOut="dissolveText('');"/>
+		
+		<area shape="polygon" coords="1270,533 1211,805 1491,866 1553,599 " href="japan.html" target ="newSpace"
+		onMouseOver="writeText('Japan');" onMouseOut="dissolveText('');"/>
+		
+		<area shape="polygon" coords="1515,548 1570,496 1864,469 1895,794 1860,779 1831,798 
+		  1765,800 1739,820 1726,818 1717,822 1542,838 1533,761 1575,583 1515,570 " href="india.html" target ="newSpace"
+		  onMouseOver="writeText('India');" onMouseOut="dissolveText('');"/>
+		  
+	</map>
+
+</div>
+
+
+<h1 id="desc"></h1>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
